@@ -1,0 +1,150 @@
+#main-banner{
+    padding: 150px 0 150px 0;
+    color: rgb(240, 162, 182);
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-retro-music-notes-background-picture-image_1454090.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+#main-banner:before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 43, 43, 0.795);
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-title{
+    padding: 0 0 20px 0;
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 55px;
+    letter-spacing: 1.56px;
+    line-height: 76px;    
+    z-index: 10;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main-subtitle{
+    font-family: Outfit;
+    font-size: 40px;
+    letter-spacing: 1.56px;
+    line-height: 76px;
+    z-index: 10;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#main-about{
+    padding: 50px 0 100px 0;
+}
+
+.main-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(23, 49, 26); */
+}
+
+.about-title{
+    padding: 0 0 20px 0;
+    font-family: Outfit;
+    font-size: 40px;
+    letter-spacing: 1.56px;
+    line-height: 76px;
+    text-align: center;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 50px 0;
+}
+
+.about-text{
+    font-family: Outfit;
+    font-size: 25px;
+    letter-spacing: 0.56px;
+    line-height: 46px;
+    text-align: center;
+    padding: 0 10px 50px 10px;
+}
+
+.about-subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 50px 0;
+}
+
+.text-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0 50px 0;
+}
+
+.about-subtext{
+    max-width: 50%;
+    font-family: Outfit;
+    font-size: 25px;
+    letter-spacing: 0.56px;
+    line-height: 36px;
+    text-align: justify;
+    padding: 0 10px 0 10px;
+}
+
+.about-img-big{
+    max-width: 800px;
+    height: 50%;
+}
+
+.about-img{
+    max-width: 500px;
+    height: 50%;
+    padding: 0 20px 0 20px;
+}
+
+@media (max-width: 600px) {
+    .about-img-big{
+        max-width: 400px;
+        height: 50%;
+        padding: 20px;
+    }
+
+    .about-img{
+        max-width: 400px;
+        height: 50%;
+        padding: 20px;
+    }
+
+    .about-subtext{
+        font-size: 20px;
+        padding: 40px 0 40px 0;
+    }
+
+    .text-img-container{
+
+        padding: 0;
+    }
+}

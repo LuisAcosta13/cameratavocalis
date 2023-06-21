@@ -1,0 +1,61 @@
+#conciertos{
+    background-image: url("https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/en-exclusiva/programados/la-musica-de-fondo-podria-mejorar-la-memoria-en-el-alzheimer-o-deterioro-cognitivo/9208472-2-esl-MX/La-musica-de-fondo-podria-mejorar-la-memoria-en-el-alzheimer-o-deterioro-cognitivo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+#conciertos:before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 56, 56, 0.795);
+}
+
+.conciertos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.conciertos-title{
+    padding: 0px 0 60px 0;
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1.56px;
+    line-height: 76px;
+    z-index: 10;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(240, 162, 182);
+}
+
+.conciertos-calendar{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    border: 2px solid rgb(240, 162, 182);
+    font-family: Outfit;
+    font-size: 20px;
+    letter-spacing: 1.56px;
+    line-height: 26px;
+    background-color: rgb(12, 12, 12);
+    z-index: 10;
+}
+
+.conciertos-item{
+    padding: 20px 0 20px 0;
+}
