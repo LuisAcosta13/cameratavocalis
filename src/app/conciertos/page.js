@@ -16,10 +16,11 @@ export default function Conciertos(){
                         <li className='conciertos-item'><strong>26/08: </strong>Parroquia Corazón de Jesus de Villa Pueyrredon</li>
 
                         <li className='conciertos-item'><strong>2/09: </strong>Concierto Homenaje a los integrantes del 9 de Cámara en la Basílica San Nicolás de Bari, 
-                            con entrega del Premio Red Coral al Maestro Carlos Lopez Puccio por su trayectoria.</li>
-
-                        <li className='conciertos-item'><strong>7/10: </strong>Usina del Arte</li>
-
+                            con entrega del Premio Red Coral al Maestro Carlos Lopez Puccio por su trayectoria.
+                        </li>
+                        
+                        {/* <li className='conciertos-item'><strong>30/09: </strong>Usina del Arte</li> */}
+                        
                         <li className='conciertos-item'><strong>9/12: </strong>Usina del Arte</li>
 
                     </ul>
