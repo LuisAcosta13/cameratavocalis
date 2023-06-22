@@ -30,8 +30,8 @@ export default function Repertorio(){
 
                         <h2 className='repertorio-subtitle' style={{textDecoration: 'underline'}}>RENACIMIENTO FRANCÉS</h2>
                         <ul className='repertorio-lists'>
-                            <li className='repertorio-item'>Ho le Vilain - Pierre Certon</li>
                             <li className='repertorio-item'>Il est bel et Bon - Pierre Passereau</li>
+                            <li className='repertorio-item'>Ho le Vilain - Pierre Certon</li>
                             <li className='repertorio-item'>Au Joly Jeu - Clément Janequin</li>
                             <li className='repertorio-item'>Les chant des oiseaux - Clément Janequin</li>
                         </ul>

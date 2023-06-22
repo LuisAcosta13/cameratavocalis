@@ -9,9 +9,11 @@ export default function Conciertos(){
                     <ul className='conciertos-calendar'>
                         <li className='conciertos-item'><strong>24/06: </strong>Parroquia Corazón de Jesus de Villa Pueyrredon (20 hs)</li>
 
-                        <li className='conciertos-item'><strong>5/08: </strong>Parroquia San Cayetano</li>
+                        <li className='conciertos-item'><strong>12/08: </strong>Parroquia San Cayetano</li>
 
                         <li className='conciertos-item'><strong>19/08: </strong>Basílica San Nicolás de Bari</li>
+
+                        <li className='conciertos-item'><strong>26/08: </strong>Parroquia Corazón de Jesus de Villa Pueyrredon</li>
 
                         <li className='conciertos-item'><strong>2/09: </strong>Concierto Homenaje a los integrantes del 9 de Cámara en la Basílica San Nicolás de Bari, 
                             con entrega del Premio Red Coral al Maestro Carlos Lopez Puccio por su trayectoria.</li>
