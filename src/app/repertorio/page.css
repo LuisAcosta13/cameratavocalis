@@ -1,11 +1,13 @@
 #repertorio{
-    background-image: url('https://unciencia.unc.edu.ar/wp-content/blogs.dir/31/files/sites/4/2019/11/UNCiencia_PRIMAR_portada-nuevo-sitio-1920x944-c-default.jpg');
+    /* background-image: url('https://unciencia.unc.edu.ar/wp-content/blogs.dir/31/files/sites/4/2019/11/UNCiencia_PRIMAR_portada-nuevo-sitio-1920x944-c-default.jpg');
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: rgb(12, 12, 12);
     position: relative;
 }
 
-#repertorio:before{
+/* #repertorio:before{
     content: "";
     position: absolute;
     z-index: 1;
@@ -14,7 +16,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(56, 56, 56, 0.795);
-}
+} */
 
 .repertorio-container{
     padding: 0px 0 60px 0;
@@ -33,6 +35,18 @@
     z-index: 10;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.repertorio-undertitle{
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.56px;
+    line-height: 50px;
+    z-index: 10;
+    text-align: center;
+    text-transform: uppercase;
     padding-bottom: 30px;
 }
 
@@ -44,6 +58,8 @@
     z-index: 10;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 1000;
+    padding-bottom: 15px;
 }
 
 .repertorio-lists{
@@ -61,8 +77,36 @@
     line-height: 40px;
     z-index: 10;
     text-align: center;
+    cursor: pointer;
+    font-weight: 800;
 }
 
 .link{
     text-decoration: underline;
+}
+
+.text{
+    display: none;
+    color: rgb(12, 12, 12);
+    /* background-color: rgb(12, 12, 12); */
+    background-color: rgb(150, 108, 118);
+    border-radius: 16px;
+    font-weight: 700;
+    padding: 15px;
+    padding-top: 5px;
+}
+
+.text.display{
+    display: block;
+    overflow: hidden;
+    animation: grow 0.3s ease-in-out;
+}
+
+@keyframes grow {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 100px;
+    }
 }
