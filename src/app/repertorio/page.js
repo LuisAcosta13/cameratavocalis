@@ -79,7 +79,7 @@ export default function Repertorio(){
                                 </div>    
                             </li>
                             <li className='repertorio-item' onClick={() => toggleMenu('6')}>
-                                Huyd, O Ciegos amadores - Francisco Guerrero
+                                Huyd Huyd, O Ciegos Amadores - Francisco Guerrero
 
                                 <div id='6' className='text'>
                                     Esta obra es un madrigal polifónico popular, escrito en castellano, 
