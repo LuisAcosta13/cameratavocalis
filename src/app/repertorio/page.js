@@ -192,7 +192,7 @@ export default function Repertorio(){
                     </div>
 
                     <h2 className='repertorio-subtitle'>¿Querés ver más de nosotros?</h2>
-                    <span className='repertorio-subtitle'>Podés conocer más del Maestro Jorge Neme y su trabajo haciendo click <Link className="link" target="_blank"  href="https://www.youtube.com/@joredne">en este enlace</Link></span>
+                    <span className='repertorio-subtitle'>Podés conocer más del Maestro Jorge Neme y su trabajo haciendo click <Link className="link" target="_blank"  href="https://www.youtube.com/@cameratavocalisbuenosaires">en este enlace</Link></span>
                     
                 </div>
                 
