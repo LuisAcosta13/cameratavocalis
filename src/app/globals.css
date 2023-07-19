@@ -127,8 +127,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  background-color: rgb(12, 12, 12);
-  color: rgb(240, 162, 182);
+  background-color: #0d0e14;
+  color: #959595;
 }
 .section{
   display: flex;
@@ -143,7 +143,7 @@ body {
 }
 
 img{
-  border-radius: 40px;
+  border-radius: 80px;
 }
 
 ol, ul {
@@ -172,9 +172,9 @@ input,textarea{
   align-items: center;
   flex-wrap: wrap;
   padding: 20px 0 20px;
-  border-bottom: 1px solid rgb(240, 162, 182);
-  color: rgb(240, 162, 182);
-  background-color: rgb(12, 12, 12);
+  border-bottom: 1px solid #959595;
+  /* color: rgb(240, 162, 182); */
+  background-color: #0d0e14;
   font-family: Outfit;
   position: sticky;
   top: 0;
@@ -189,8 +189,7 @@ input,textarea{
 .navbar a h2:hover{
   transition: 0.3s ease-out;
   padding-bottom: 2px;
-  color: rgb(240, 162, 182);
-  border-bottom: solid 1px rgb(240, 162, 182);
+  border-bottom: solid 1px #959595;
   text-shadow: 0 0 20px rgb(248, 245, 246);
 }
 
@@ -206,34 +205,4 @@ input,textarea{
 a {
   color: inherit;
   text-decoration: none;
-} 
-
-.link:before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  right: 0;
-  width: 6px;
-  height: 1px;
-  background: #FF006B;
-  transform: rotate(45deg);
-}
-.link:after {
-  content: "";
-  position: absolute;
-  bottom: 6px;
-  right: 0;
-  width: 6px;
-  height: 1px;
-  background: #FF006B;
-  transform: rotate(-45deg);
-}
-.link.white {
-  color: #ffffff;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

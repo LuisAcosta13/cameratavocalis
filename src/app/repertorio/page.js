@@ -108,7 +108,7 @@ export default function Repertorio(){
                             </li>
                         </ul>
 
-                        <h2 className='repertorio-subtitle' style={{textDecoration: 'underline'}}>RENACIMIENTOS INGLÉS</h2>
+                        <h2 className='repertorio-subtitle' style={{textDecoration: 'underline'}}>RENACIMIENTO INGLÉS</h2>
                         <ul className='repertorio-lists'>
                             <li className='repertorio-item' onClick={() => toggleMenu('9')}>
                                 Come Again - John Dowland

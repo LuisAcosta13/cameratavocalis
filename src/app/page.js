@@ -11,9 +11,11 @@ export default function Home() {
     <section>
       <section id='main-banner' className='section'>
         <div className="inside">
-          <div className='title-container'>
-            <h1 className='main-title'>Camerata Vocalis Buenos Aires</h1>
-            <h2 className='main-subtitle'>La vida hecha canto</h2>
+          <div style={{'display': 'flex', 'justifyContent': 'center'}}>
+            <div className='title-container'>
+              <h1 className='main-title'>Camerata Vocalis Buenos Aires</h1>
+              <h2 className='main-subtitle'>La vida hecha canto</h2>
+            </div>
           </div>
         </div>
       </section>

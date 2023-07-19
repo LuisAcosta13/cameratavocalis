@@ -1,22 +1,39 @@
 #main-banner{
     padding: 60px 0 80px 0;
-    color: rgb(240, 162, 182);
-    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-retro-music-notes-background-picture-image_1454090.jpg");
+    /* color: rgb(240, 162, 182); */
+    background-color: rgb(255, 255, 255);
+    /* background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-retro-music-notes-background-picture-image_1454090.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; */
     position: relative;
+    opacity: 0.7;
 }
 
 #main-banner:before{
     content: "";
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 50px;
+    width: 160px;
     height: 100%;
-    background-color: rgba(43, 43, 43, 0.795);
+    background: url('./favicon.ico');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#main-banner:after{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 50px;
+    width: 160px;
+    height: 100%;
+    background: url('./favicon.ico');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .title-container{
@@ -24,7 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    max-width: 1100px;
 }
 
 .main-title{
@@ -126,6 +143,14 @@
 }
 
 @media (max-width: 600px) {
+    #main-banner:before{
+        background: none;
+    }
+
+    #main-banner:after{
+        background: none;
+    }
+
     .about-img-big{
         max-width: 400px;
         height: 50%;

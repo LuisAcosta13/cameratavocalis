@@ -3,7 +3,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    background-color: rgb(12, 12, 12);
     position: relative;
 }
 
@@ -89,7 +88,7 @@
     display: none;
     color: rgb(12, 12, 12);
     /* background-color: rgb(12, 12, 12); */
-    background-color: rgb(150, 108, 118);
+    background-color: #959595;
     border-radius: 16px;
     font-weight: 700;
     padding: 15px;
