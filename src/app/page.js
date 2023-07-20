@@ -4,6 +4,8 @@ import camerata1 from "./camerata1.png"
 import camerata2 from "./camerata2.png"
 import camerata3 from "./camerata3.png"
 import camerata4 from "./camerata4.png"
+import director1 from "./director1.jpeg"
+import director2 from "./director2.jpeg"
 import 'normalize.css'
 
 export default function Home() {
@@ -35,6 +37,44 @@ export default function Home() {
                 varias personas interesadas en el canto coral.
               </p>
               <Image className="about-img-big" src={camerata1} alt="camerata"/>
+            </div>
+
+            <div className='about-subcontainer'>
+              <h2 className='about-title'>El Maestro Jorge Eduardo Neme</h2>
+              <div className='about-container'>
+                <div class="about-flex">
+                  <p className='about-text-side'>
+                    El Maestro Jorge Eduardo Neme es un destacado músico argentino con una amplia 
+                    trayectoria en la dirección coral. Comenzó su carrera en Santiago del Estero 
+                    como miembro del Coro de Cámara de la UNSE bajo la dirección del Maestro Franklin 
+                    Ponce en 1979. Posteriormente, fundó en 1980 el Coro de la UCSE, el cual dirigió 
+                    de manera ininterrumpida hasta 1989, recibiendo la guía y mentoría del Maestro Ponce.
+                    En 1984, obtuvo el reconocimiento al ganar un concurso para fundar y dirigir el 
+                    Coro Municipal de Santiago del Estero. Luego, en 1989, se trasladó a la 
+                    Ciudad Autónoma de Buenos Aires (CABA) y comenzó a dirigir varios coros en la 
+                    capital argentina.
+                    Para ampliar su formación y habilidades, ingresó al Conservatorio Manuel de Falla en 1991, 
+                    donde en 1994 obtuvo el título de Profesor Artístico de música con especialización 
+                    en Dirección Coral. En 1997, se graduó nuevamente con el título de Profesor Superior 
+                    de música con especialización en Dirección Coral, obteniendo la medalla de oro accediendo 
+                    al concurso por su promedio mayor de 9.
+                  </p>
+                  <Image className="about-img" src={director2} alt="Jorge Neme"/>
+                </div>
+                <p className='about-text-side'>
+                  El Maestro Neme ha llevado su arte a diversos escenarios en la ciudad de Buenos Aires, 
+                  provincia de Buenos Aires, el interior del país y también a nivel internacional. 
+                  Entre sus numerosas presentaciones destacadas, se incluyen lugares emblemáticos como 
+                  el Teatro Colón, la Catedral de Buenos Aires, la Biblioteca Nacional y la Aula Magna 
+                  de la Facultad de Derecho. Además, ha dirigido en distintas Basílicas, Iglesias, parroquias 
+                  y templos de diversas religiones, así como en teatros importantes como el 
+                  Teatro Independencia de Mendoza, el Teatro San Martín de Córdoba, el Teatro Juan de 
+                  Vera en Corrientes y el Teatro Auditorium Centro Provincial de Mar del Plata.
+                  La trayectoria del Maestro Neme está marcada por su dedicación, excelencia artística y 
+                  amplia experiencia en la dirección de coros, dejando un legado musical significativo en Argentina.
+                </p>
+                <Image className="about-img-big" src={director1} alt="Jorge Neme en un dia de ensayo"/>
+              </div>
             </div>
             
             <div className='about-subcontainer'>
