@@ -19,7 +19,7 @@ export default function Conciertos(){
                         <li className='conciertos-item'><strong>19/08: </strong>
                             <div className="conciertos-item-container">
                                 <span>Basílica San Nicolás de Bari</span>
-                                <span className="conciertos-subitem">Santa Fe 1352, CABA - 17 hs</span>
+                                <span className="conciertos-subitem">Av. Sta. Fe 1352, CABA - 17 hs</span>
                             </div>
                         </li>
 
