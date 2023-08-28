@@ -8,6 +8,24 @@ import director1 from "./director1.jpeg"
 import director2 from "./director2.jpeg"
 import 'normalize.css'
 
+const src = "https://www.youtube.com/embed/vx3XV1im3Wk";
+
+const Video = () => {
+  return (
+    <iframe
+      width="100%"
+      height="715"
+      src={src}
+      title="Youtube Player"
+      frameborder="0"
+      allowFullScreen
+      allow="autoplay"
+      style={{'display': 'flex'}}
+    />
+  );
+};
+
+
 export default function Home() {
   return (
     <section>
@@ -36,7 +54,7 @@ export default function Home() {
                 Instituto que se habían formado en el coro del mismo, vecinos y 
                 varias personas interesadas en el canto coral.
               </p>
-              <Image className="about-img-big" src={camerata1} alt="camerata"/>
+              <Video/>
             </div>
 
             <div className='about-subcontainer'>
@@ -73,7 +91,8 @@ export default function Home() {
                   La trayectoria del Maestro Neme está marcada por su dedicación, excelencia artística y 
                   amplia experiencia en la dirección de coros, dejando un legado musical significativo en Argentina.
                 </p>
-                <Image className="about-img-big" src={director1} alt="Jorge Neme en un dia de ensayo"/>
+                {/* <Image className="about-img-big" src={director1} alt="Jorge Neme en un dia de ensayo"/> */}
+                <Image className="about-img-big" src={camerata1} alt="camerata"/>
               </div>
             </div>
             
