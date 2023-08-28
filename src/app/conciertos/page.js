@@ -34,7 +34,7 @@ export default function Conciertos(){
                             <div className="conciertos-item-container">
                                 <span>Concierto Homenaje a los integrantes del 9 de Cámara en la Basílica San Nicolás de Bari, 
                                 con entrega del Premio Red Coral al Maestro Carlos Lopez Puccio por su trayectoria.</span>
-                                <span className="conciertos-subitem">Av. Sta. Fe 1352, CABA - 20 hs</span>
+                                <span className="conciertos-subitem">Av. Sta. Fe 1352, CABA - 17 hs</span>
                             </div>
                         </li>
                         

@@ -74,3 +74,21 @@
 .conciertos-subitem{
     font-size: smaller;
 }
+
+@media (max-width: 600px) {
+    .conciertos-calendar{
+        border-radius: 20px;
+        padding: 30px;
+    }
+    .conciertos-item{
+        flex-direction: column;
+    }
+    .conciertos-item-container{
+        padding: 10px 0;
+        text-align: center;
+        align-items: center;
+    }
+    .conciertos-subitem{
+        padding: 20px 0;
+    }
+}
