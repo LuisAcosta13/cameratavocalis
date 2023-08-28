@@ -9,7 +9,7 @@ export default function Conciertos(){
                     <ul className='conciertos-calendar'>
                         {/* <li className='conciertos-item'><strong>24/06: </strong>Parroquia Corazón de Jesus de Villa Pueyrredon (20 hs)</li> */}
 
-                        <li className='conciertos-item'><strong>12/08: </strong> 
+                        {/* <li className='conciertos-item'><strong>12/08: </strong> 
                             <div className="conciertos-item-container">
                                 <span>Parroquia San Cayetano</span>
                                 <span className="conciertos-subitem">Vidal 1745, CABA - 20.30 hs</span>
@@ -28,7 +28,7 @@ export default function Conciertos(){
                                 <span>Parroquia Corazón de Jesus de Villa Pueyrredon</span>
                                 <span className="conciertos-subitem">Av. General Paz 5370, CABA - 20 hs</span>
                             </div>
-                        </li>
+                        </li> */}
 
                         <li className='conciertos-item'><strong>02/09: </strong>
                             <div className="conciertos-item-container">

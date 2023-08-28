@@ -42,7 +42,7 @@ export default function Home() {
             <div className='about-subcontainer'>
               <h2 className='about-title'>El Maestro Jorge Eduardo Neme</h2>
               <div className='about-container'>
-                <div class="about-flex">
+                <div className="about-flex">
                   <p className='about-text-side'>
                     El Maestro Jorge Eduardo Neme es un destacado músico argentino con una amplia 
                     trayectoria en la dirección coral. Comenzó su carrera en Santiago del Estero 
