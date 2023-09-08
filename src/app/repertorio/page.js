@@ -22,7 +22,7 @@ export default function Repertorio(){
             <div className="inside">
                 <div className="repertorio-container">            
                     <div className='repertorio-lists'>
-                        <h1 className='repertorio-title'>Repertorio para el ciclo de conciertos 2023</h1>
+                        <h1 className='repertorio-title'>Repertorio para el homenaje al conjunto vocal Nueve de Cámara</h1>
                         <span className="repertorio-undertitle">¡Hacé click en cada obra para conocer más!</span>
 
                         <h2 className='repertorio-subtitle' style={{textDecoration: 'underline'}}>Renacimiento Español</h2>
@@ -191,7 +191,7 @@ export default function Repertorio(){
                         </ul>
                     </div>
 
-                    <h2 className='repertorio-subtitle'>¿Querés ver más de nosotros?</h2>
+                    <h2 className='repertorio-subtitle'>¿Querés ver más de Camerata?</h2>
                     <span className='repertorio-subtitle'>Podés conocer más del Maestro Jorge Neme y su trabajo haciendo click <Link className="link" target="_blank"  href="https://www.youtube.com/@cameratavocalisbuenosaires">en este enlace</Link></span>
                     
                 </div>

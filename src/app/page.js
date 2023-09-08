@@ -7,6 +7,7 @@ import camerata4 from "./camerata4.png"
 import director1 from "./director1.jpeg"
 import director2 from "./director2.jpeg"
 import 'normalize.css'
+import Link from 'next/link'
 
 const src = "https://www.youtube.com/embed/vx3XV1im3Wk";
 
@@ -59,7 +60,7 @@ export default function Home() {
 
             <div className='about-subcontainer'>
               <h2 className='about-title'>El Maestro Jorge Eduardo Neme</h2>
-              <div className='about-container'>
+              <div className='nopadding-container'>
                 <div className="about-flex">
                   <p className='about-text-side'>
                     El Maestro Jorge Eduardo Neme es un destacado músico argentino con una amplia 
@@ -91,8 +92,13 @@ export default function Home() {
                   La trayectoria del Maestro Neme está marcada por su dedicación, excelencia artística y 
                   amplia experiencia en la dirección de coros, dejando un legado musical significativo en Argentina.
                 </p>
-                {/* <Image className="about-img-big" src={director1} alt="Jorge Neme en un dia de ensayo"/> */}
-                <Image className="about-img-big" src={camerata1} alt="camerata"/>
+                <div className='nopadding-container'>
+                  <Image className="about-img-big" src={director1} alt="Jorge Neme en un dia de ensayo"/>
+                  <span className="img-subtext">
+                    Jorge Neme junto a los ex integrantes de Nueve de Cámara, conjunto vocal dirigido por el 
+                    Dir. Carlos López Puccio, durante el homenaje realizado el 02/09/23.
+                  </span>
+                </div>
               </div>
             </div>
             
@@ -137,6 +143,11 @@ export default function Home() {
                 </span>
               </div>
             </div>
+            <h2 className='repertorio-subtitle'>¿Querés ver más de Camerata?</h2>
+            <span className='repertorio-subtitle'>
+              Podés conocer más del Maestro Jorge Neme y su trabajo haciendo click 
+              <Link className="link" target="_blank"  href="https://www.youtube.com/@cameratavocalisbuenosaires"> en este enlace</Link>
+            </span>
           </div>
         </div>
       </section>
